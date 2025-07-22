@@ -1,5 +1,5 @@
-import { config } from "../config";
-import { sendTextMessage } from "../services/whatsappService";
+import { config } from "../config.js";
+import { sendTextMessage } from "../services/whatsappService.js";
 
 const verifyWebhook = (req, res) => {
     const mode = req.query['hub.mode'];

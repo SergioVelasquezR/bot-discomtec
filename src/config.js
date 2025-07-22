@@ -1,5 +1,5 @@
-import dontev from 'dontev';
-dontev.config();
+import dotenv from 'dotenv';
+dotenv.config();
 
 export const config = {
     whatsappToken: process.env.WHATSAPP_TOKEN,
