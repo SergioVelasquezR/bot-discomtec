@@ -13,7 +13,7 @@ async function sendTextMessage(to, text) {
 
     try{
         await axios.post(
-            `https://graph.facebook.com/v19.0/733593256502402/messages`,
+            `https://graph.facebook.com/v19.0/${process.env.PHONE_NUMBER_ID}/messages`,
             data,
             {
                 headers: {
